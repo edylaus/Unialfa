@@ -1,0 +1,20 @@
+Java
+Um Array Bidimencional possui dois indices e possibilita que os valores sejam armazenados na forma de matrizes. 
+A linguagem java nao suporta arrays bidimensionais como as outras linguagem (no formato linha, coluna, por exemplo), entretanto é possivel obter a mesma funcionalidade criando um array de arrays.
+Os de uso mais comum são os que envolvem dois arrays, mas é possivel criar arrays com quantas dimensões forem necessarias.
+Esses arrays devem ser declarados da seguinte forma:
+
+tipo-do-dado nome do array[][] = new tipo-do-dado [<indice1>][<indice2>]
+
+Array (Vetor) em Python
+Em python, o conceito de array(vetor) pode ser implementado de algumas formas sendo a mais comum o uso de listas(nativas) ou atraves da biblioteca Numpy para operações de alta performance.
+
+1) Lista Python (o jeito padrão)
+As listas em python funcionam como arrays dinamicos, o que significa que podemos armazenar diferentes tipos de dados e mudar o tamanho automaticamente.
+
+2) Numpy array (o jeito matematico)
+Para manipulação de grandes volumes de dados ou calculos matematicos (data science), usa-se a biblioteca numpy que fornece arrays mais eficientes
+
+Principais diferenças:
+-Listas: Dinamicas aceitam tipos mistos (inteiros, strings, etc...)
+-Numpy arrays: tem tamanho fixo, mas são otimizados para operação numericas e exigem que os dados sejam do mesmo tipo
